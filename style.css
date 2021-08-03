@@ -207,7 +207,7 @@ nav .menu ul {
   display: none;
 }
 
-/* MOSTRAR MENU */
+/*=== MOSTRAR MENU ===*/
 nav.show .menu {
   opacity: 1;
   visibility: visible;
@@ -529,7 +529,7 @@ footer .social a:hover {
 }
 
 /*=== MEDIA QUERIES ===*/
-/* Extra large devices: 1200 > */
+/*=== Extra large devices: 1200 > ===*/
 @media (min-width: 1200px) {
 /* Reusable classes/Classes reutilizáveis */
   .container {
@@ -554,7 +554,7 @@ footer .social a:hover {
     height: 3.125rem;
   }
 
-/* NAVIGATION */
+/*=== NAVIGATION ===*/
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -580,12 +580,12 @@ footer .social a:hover {
     display: none;
   }
 
-/* LAYOUT */
+/*=== LAYOUT ===*/
   main {
     margin-top: var(--header-height);
   }
 
-/* HOME */
+/*=== HOME ===*/
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -608,7 +608,7 @@ footer .social a:hover {
     grid-auto-flow: column;
   }
 
-/* SERVICES */
+/*=== SERVICES ===*/
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -624,7 +624,7 @@ footer .social a:hover {
     margin-right: auto;
   }
 
-/* CONTACT */
+/*=== CONTACT ===*/
   #contact .container {
     grid-auto-flow: column;
     align-items: center;
@@ -634,7 +634,7 @@ footer .social a:hover {
     max-width: 25rem;
   }
 
-/* FOOTER */
+/*=== FOOTER ===*/
   footer.section {
     padding: 3.75rem 0;
   }
@@ -649,28 +649,12 @@ footer .social a:hover {
     font-size: 2.25rem;
   }
 }
-/* Large devices: 1023 > */
-/* Large devices: 992 > */
+/*=== Large devices: 1023 > ===*/
+/*=== Large devices: 992 > ===*/
 @media (min-widht: 992px) {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
 }
-/* Medium devices: 767 > */
-
-
-
-/*=== DICAS ===*/
-/* 
--> Deixar os depoimentos em duas colunas;
--> No item SERVIÇOS pode colocar em 3 colunas;
--> Diminuir o tamanho das imagens p/ manter a qualidade
-*/
-
-/* 
--> Em "Contact" (linha 619) eu prefiro que o comando abaixo apareça somente até telas do tipo tablet. Monitores p/ cima fica sem. 
-  #contact .text {
-    max-width: 25rem;
-  }
-*/
+/*=== Medium devices: 767 > ===*/
