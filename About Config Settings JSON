@@ -1,0 +1,56 @@
+
+Ctrl + Shift + P na janela que abrir digitar Open Settins (JSON)
+ORIGINAL
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.cursorStyle": "line"
+}
+
+MODIFICADO
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Omni",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.statusBar.visible": true,
+    "workbench.editor.tabSizing": "shrink",
+    "explorer.compactFolders": false,
+    "window.menuBarVisibility": "default",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.cursorStyle": "line"
+    
+    // formatter
+    "prettier.tabWidth": 2,
+    "prettier.semi": false, 
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none", 
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+}
