@@ -110,4 +110,3 @@ window.addEventListener('scroll', function () {
 })
 
 // Teste de digitação com o notebook numa posição mais alta do que o normal.
-// Teste de digitação com o notebook numa posição mais alta do que o normal.
